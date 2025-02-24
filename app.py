@@ -7,8 +7,8 @@ pages = {
     ],
 
     "Car ": [
-        st.Page("pages/car/new_or_used.py", title="New Or Used", icon="🚗"),
-        st.Page("pages/car/repair_or_replace.py", title="Repair or Replace", icon="🔧"),  # New module added here
+        st.Page("pages/new_or_used.py", title="New Or Used", icon="🚗"),
+        st.Page("pages/repair_or_replace.py", title="Repair or Replace", icon="🔧"),
     ],
 
     "Real Estate": [

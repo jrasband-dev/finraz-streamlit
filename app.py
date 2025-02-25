@@ -3,15 +3,17 @@ import streamlit as st
 
 pages = {  
     "Home":[
-        st.Page("pages/home.py", title="Home", icon="🏠"),
+        st.Page("pages/home.py", title="About", icon="🏠"),
     ],
 
-    "Car ": [
-        st.Page("pages/new_or_used.py", title="New Or Used", icon="🚗"),
+    "Car": [
+        st.Page("pages/new_or_used.py", title="New or Used", icon="🚗"),
         st.Page("pages/repair_or_replace.py", title="Repair or Replace", icon="🔧"),
     ],
 
-    "Real Estate": [
+    "Mortgage": [
+        st.Page("pages/mortgage_amortization.py", title="Amortization", icon="🏠"),
+        st.Page("pages/mortgage_refinance.py", title="Refinance", icon="🏠"),
     ],
 }
 

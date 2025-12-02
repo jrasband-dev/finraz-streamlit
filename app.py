@@ -14,6 +14,7 @@ pages = {
     "Mortgage": [
         st.Page("pages/mortgage_amortization.py", title="Amortization", icon="🏠"),
         st.Page("pages/mortgage_refinance.py", title="Refinance", icon="🏠"),
+        st.Page("pages/rent_or_buy.py", title="Rent Or Buy", icon="🏠"),
     ],
 }
 

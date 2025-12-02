@@ -112,3 +112,9 @@ class Mortgage:
             "Total Savings (over the loan term)": total_savings,
             "Should Refinance": should_refinance
         }
+
+def income_multiplier(income,desired_home_price):
+    return desired_home_price/income
+
+def rent_or_buy(self):
+    return "test"
